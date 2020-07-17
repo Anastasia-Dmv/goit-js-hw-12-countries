@@ -1,12 +1,12 @@
 <h2 class="name">{{name}}</h2>
 <div class="container">
     <ul class="list">
-        <li class="list-items capital"><b>Capital:</b> {{capital}}</li>
-        <li class="list-items population"><b>Population:</b> {{population}}</li>
-        <li class="list-items languages"><b>Languages:</b>
+        <li class="list-items "><b>Capital:</b> {{capital}}</li>
+        <li class="list-items "><b>Population:</b> {{population}}</li>
+        <li class="list-items "><b>Languages:</b>
             <ul class="languages-list">
                 {{#each languages}}
-                <li class="languages_item">
+                <li class="languages-list_item">
                     {{this.name}}
                 </li>
                 {{/each }}
@@ -14,5 +14,5 @@
             </ul>
         </li>
     </ul>
-    <img src="{{flag}}" alt="flag of {{name}} " width="320">
+    <img src="{{flag}}" alt="flag of {{name}} " width="280">
 </div>
